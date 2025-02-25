@@ -1,0 +1,17 @@
+{
+  "movies": [
+      { "id": "1", "title": "Arşın Mal Alan", "year": "1945", "img": "./src/assets/images/1.jpg" },
+      { "id": "2", "title": "O Olmasın, Bu Olsun", "year": "1956", "img": "./src/assets/images/2.jpg" },
+      { "id": "3", "title": "Bəxt Üzüyü", "year": "1991", "img": "./src/assets/images/3.jpg" },
+      { "id": "4", "title": "Dəli Kür", "year": "1969", "img": "./src/assets/images/4.jpg" },
+      { "id": "5", "title": "Yeddi Oğul İstərəm", "year": "1970", "img": "./src/assets/images/5.jpg" },
+      { "id": "6", "title": "Nəsimi", "year": "1973", "img": "./src/assets/images/6.jpeg" },
+      { "id": "7", "title": "Qanun Naminə", "year": "1968", "img": "./src/assets/images/7.jpg" },
+      { "id": "8", "title": "Uşaqlığın Son Gecəsi", "year": "1968", "img": "./src/assets/images/8.jpg" },
+      { "id": "9", "title": "Dədə Qorqud", "year": "1975", "img": "./src/assets/images/9.jpg" },
+      { "id": "10", "title": "Bizim Cəbiş Müəllim", "year": "1969", "img": "./src/assets/images/10.jpg" },
+      { "id": "11", "title": "Ögey Ana", "year": "1958", "img": "./src/assets/images/11.jpg" },
+      { "id": "12", "title": "Qaynana", "year": "1975", "img": "./src/assets/images/12.jpg" },
+      { "id": "13", "title": "Sehrli Xalat", "year": "1975", "img": "./src/assets/images/13.jpg" }
+  ]
+}
