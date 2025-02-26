@@ -1,5 +1,4 @@
-import "./App.css";
-
+import "./Pagination.css";
 export const Pagination = ({handlePageChange, currentPage, numberOfPages, }) => {
 
   return (

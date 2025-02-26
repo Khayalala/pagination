@@ -1,0 +1,115 @@
+body {
+  font-family: "Georgia", serif;
+  background-color: #fbe9d0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #4a2c2a;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  color: #8b4513;
+  background-color: #ffdab9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.albumsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.movieDetails {
+  background: #fff8e7;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s ease-in-out;
+  border: 2px solid #d2a679;
+}
+
+.movieDetails:hover {
+  transform: scale(1.05);
+}
+
+.movieDetails img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #8b4513;
+}
+
+.movieDetails span {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #4a2c2a;
+}
+
+.movieDetails span:last-child {
+  font-size: 16px;
+  font-weight: normal;
+  color: #8b4513;
+}
+
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 18px;
+  border: 2px solid #8b4513;
+  border-radius: 50px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff8e7;
+  color: #4a2c2a;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-input::placeholder {
+  color: #8b4513;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.search-input:focus {
+  border-color: #a0522d;
+  background-color: #ffdab9;
+  box-shadow: 0px 0px 12px rgba(139, 69, 19, 0.5);
+}
+
+@media (max-width: 768px) {
+  .albumsContainer {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}

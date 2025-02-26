@@ -1,0 +1,22 @@
+.about-container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  padding: 40px;
+  background: #fff8e7;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  color: #4a2c2a;
+}
+
+h1 {
+  font-size: 30px;
+  color: #8b4513;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
